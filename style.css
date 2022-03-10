@@ -1,0 +1,42 @@
+body{
+    
+    background-image: url('https://images.unsplash.com/photo-1496478981722-3ae516118a04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1166&q=80');
+    min-height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -20rem;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 2rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
